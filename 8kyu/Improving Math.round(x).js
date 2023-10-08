@@ -8,3 +8,7 @@ Math.roundTo = function (number, precision) {
    return +(number).toFixed(precision)
   }
   */
+
+  /*
+  Math.roundTo = (number, precision) => Number(number.toFixed(precision));
+  */
