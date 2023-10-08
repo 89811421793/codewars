@@ -6,3 +6,17 @@ Number.prototype.times = function (f) {
       i += 1
     }
   }
+
+  /*
+  Number.prototype.times = function (f) {
+  for (let i = 0; i < this; ++i) {
+    f(i);
+  }
+};
+  */
+
+/*
+Number.prototype.times = function (f) {
+  for (let i = 0; i < this; f(i++)) ;
+};
+*/
