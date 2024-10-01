@@ -1,0 +1,1 @@
+const unusualFive = () => ['a', 'b', 'c', 'd', 'e'].length;
